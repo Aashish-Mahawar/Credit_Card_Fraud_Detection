@@ -1,0 +1,40 @@
+/* Center the content horizontally and vertically */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 24px; /* Increase the font size */
+    background-color: #999999; /* Change the background color */
+}
+
+/* Style the form */
+form {
+    text-align: center;
+}
+
+/* Style the submit button */
+input[type="button"] {
+    background-color: #007BFF; /* Change button background color */
+    color: white;
+    padding: 15px 30px; /* Increase the button padding for a larger size */
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Increase the font size */
+}
+
+/* Add some spacing between form elements */
+form input[type="text"] {
+    margin: 5px;
+}
+
+/* Style the alert */
+.alert {
+    background-color: #28a745; /* Change alert background color to green */
+    color: white; /* Change text color to white */
+    padding: 10px;
+    text-align: center;
+    font-size: 18px; /* Increase the font size of the alert */
+}
